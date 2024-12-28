@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "lib": [
+            "es2022",
+            "dom",
+            "dom.iterable"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        },
+        /* Base Options: */
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "moduleDetection": "force",
+        "isolatedModules": true,
+        "verbatimModuleSyntax": true,
+        /* Strictness */
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitOverride": true,
+        /* If transpiling with TypeScript: */
+        "outDir": "dist",
+        "sourceMap": true,
+    },
+    "include": [
+        "src/main.ts"
+    ]
+}

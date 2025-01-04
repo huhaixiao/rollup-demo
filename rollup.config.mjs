@@ -37,7 +37,11 @@ export default {
         //     plugins: [terser()]
         // }
     ],
-    plugins: [json(), typescript(), nodeResolve({
-        extensions: ['.ts'],
-    })],
+    plugins: [
+        nodeResolve({
+            extensions: ['.ts'],
+        }),
+        typescript(),
+        json(),
+    ],
 };

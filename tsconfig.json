@@ -28,9 +28,13 @@
         "noImplicitOverride": true,
         /* If transpiling with TypeScript: */
         "outDir": "dist",
+        "rootDir": "src",
         "sourceMap": true,
     },
     "include": [
         "src/main.ts"
+    ],
+    "exclude": [
+        "node_modules"
     ]
 }

@@ -1,3 +1,5 @@
 // src/foo.js
 export default 'hello world!';
-export const world = 'world';
+
+type IString = 'world';
+export const world: IString = 'world';
